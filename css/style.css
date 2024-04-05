@@ -1,0 +1,358 @@
+@import url(./base.css);
+@import url(./fonts.css);
+@import url(./normalize.css);
+@import url(./varables.css);
+
+.header {
+  background-image: url(../images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.header__container {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+}
+.site-logo__img {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.header__button {
+  background-color: transparent;
+  border: 0;
+  display: none;
+}
+.header__button__icon {
+}
+/* main start*/
+.main-section {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white-color);
+  border-radius: 5px;
+}
+.main-section-2 {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white-color);
+  border-radius: 5px;
+}
+.hero {
+  margin-top: -9.2rem;
+  position: relative;
+}
+.hero__container {
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+.hero__icon {
+  margin-left: 309px;
+  margin-top: -2.8rem;
+  position: absolute;
+}
+.hero__title {
+  font-family: Commissioner;
+  font-size: 28px;
+  font-weight: 700;
+
+  text-align: center;
+  line-height: 150px;
+  color: #000000;
+}
+.hero__description {
+  font-family: Commissioner;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.57px;
+  text-align: center;
+  margin-top: -40px;
+}
+.hero__list {
+  display: flex;
+  gap: 256px;
+  margin-top: 40px;
+}
+.hero__item {
+}
+.hero__item-2 {
+  display: flex;
+}
+.hero__link {
+  background-color: #147a73;
+  border-radius: 50px;
+  padding: 16px 40px;
+  color: var(--white-color);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.57px;
+  text-align: left;
+}
+.hero__link-2 {
+  display: flex;
+  align-items: center;
+  color: #2f2f2f;
+  padding-right: 24px;
+  gap: 16px;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.57px;
+  text-align: left;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+}
+.hero__button {
+  display: none;
+}
+
+section-2 {
+}
+.hero-2 {
+}
+.hero-2__container {
+  padding: 4.8rem;
+  margin-top: 40px;
+}
+
+.section-2__list {
+  display: flex;
+  gap: 42px;
+}
+.hero__item {
+  flex-direction: column;
+}
+.section-2__title {
+  font-family: Commissioner;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.14px;
+  text-align: left;
+  color: var(--black-color);
+}
+.section-2__description {
+}
+hr {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%, 100);
+  height: 63px;
+  width: 1px;
+}
+/* section-3 */
+.hero-3 {
+  margin-top: 40px;
+}
+.hero-3__container {
+  padding: 4.8rem;
+  margin-top: 40px;
+}
+
+.hero-3__title {
+  font-family: Commissioner;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.46px;
+  margin-bottom: 35px;
+  color: var(--black-color);
+}
+.hero-3__description {
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: var(--text-color);
+}
+.group {
+  margin-top: 40px;
+  width: 634px;
+  border: 1px solid #00000026;
+  border-radius: 8px;
+}
+.group-3 {
+  margin-top: 40px;
+  width: 634px;
+  border: 1px solid #00000026;
+  border-radius: 8px;
+}
+.group__list {
+  margin-top: 38px;
+  margin-left: 32px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.group__item {
+  color: var(--black-color);
+  font-family: Commissioner;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.01px;
+  text-align: left;
+}
+.group__link {
+  font-family: Commissioner;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.35px;
+  color: #3cb3ab;
+}
+.group__description {
+  font-family: Commissioner;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.group__item-2 {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.group__title {
+  font-family: Commissioner;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.14px;
+  text-align: left;
+  color: var(--black-color);
+}
+.group__span {
+}
+.group__link-1 {
+  padding: 15px 32px;
+  background-color: #147a73;
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.12px;
+  text-align: left;
+
+  border-radius: 50px;
+}
+.group-3 {
+  opacity: 50%;
+}
+
+/* Breacpoint */
+@media (max-width: 475px) {
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .header__container {
+    padding-top: 3.2rem;
+  }
+  .header {
+    background-image: url("../images/image-hero-mobile.jpg");
+    height: 300px;
+    background-size: cover;
+  }
+  .sitenav {
+    display: none;
+  }
+  .header__button {
+    display: block;
+  }
+  .hero__icon {
+    margin-left: 115px;
+  }
+  .main-section {
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white-color);
+  }
+
+  .hero-2__container {
+    margin-top: 40px;
+  }
+  .hero__list {
+    gap: 9px;
+  }
+  .hero__link-2 {
+    display: none;
+  }
+  .hero__button {
+    display: block;
+  }
+  .hero__title {
+  }
+  .hero__description {
+    width: 280px;
+    align-items: center;
+    margin-left: -2px;
+  }
+  .section-2__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .secction-2__item {
+    margin-left: 9.9rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-2__title {
+    margin-left: 20px;
+  }
+
+  .main-section-2 {
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white-color);
+  }
+  hr {
+    width: 80px;
+    height: 1px;
+    top: 789px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0.15px;
+  }
+  .group__list {
+    display: block;
+  }
+  .group__item-2 {
+  }
+  .group__description {
+    width: 231px;
+  }
+  .group__link-1 {
+    margin-bottom: 24px;
+  }
+  .group {
+    width: 279px;
+  }
+  .group-3 {
+    width: 279px;
+  }
+}
